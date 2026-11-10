@@ -23,14 +23,11 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef56/proprietary/vendor/etc/firmware/venus.mdt:system/vendor/firmware/venus.mdt \
     vendor/pantech/ef56/proprietary/vendor/etc/firmware/venus.b00:system/vendor/firmware/venus.b00 \
     vendor/pantech/ef56/proprietary/vendor/etc/firmware/venus.b01:system/vendor/firmware/venus.b01 \
-    vendor/pantech/ef56/proprietary/lib/libmmcamera_rohm_eeprom.so:system/lib/libmmcamera_rohm_eeprom.so \
-    vendor/pantech/ef56/proprietary/lib/libmmcamera_rumba_sa_eeprom.so:system/lib/libmmcamera_rumba_sa_eeprom.so \
     vendor/pantech/ef56/proprietary/lib/libsnsutils.so:system/lib/libsnsutils.so \
     vendor/pantech/ef56/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/pantech/ef56/proprietary/vendor/lib/libmmcamera_hi256.so:system/vendor/lib/libmmcamera_hi256.so \
     vendor/pantech/ef56/proprietary/vendor/lib/libmmcamera_imx134.so:system/vendor/lib/libmmcamera_imx134.so \
     vendor/pantech/ef56/proprietary/vendor/lib/libmmcamera_mt9m114.so:system/vendor/lib/libmmcamera_mt9m114.so \
-    vendor/pantech/ef56/proprietary/vendor/lib/libmmcamera_ofilm_oty5f03_eeprom.so:system/vendor/lib/libmmcamera_ofilm_oty5f03_eeprom.so \
     vendor/pantech/ef56/proprietary/vendor/lib/libmmcamera_ov2720.so:system/vendor/lib/libmmcamera_ov2720.so \
     vendor/pantech/ef56/proprietary/vendor/lib/libmmcamera_ov5648_oty5f03.so:system/vendor/lib/libmmcamera_ov5648_oty5f03.so \
     vendor/pantech/ef56/proprietary/vendor/lib/libmmcamera_ov8825.so:system/vendor/lib/libmmcamera_ov8825.so \
@@ -42,7 +39,4 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef56/proprietary/vendor/lib/libmmcamera_SKUAB_ST_s5k4e1.so:system/vendor/lib/libmmcamera_SKUAB_ST_s5k4e1.so \
     vendor/pantech/ef56/proprietary/vendor/lib/libmmcamera_skuf_ov12830_p12v01c.so:system/vendor/lib/libmmcamera_skuf_ov12830_p12v01c.so \
     vendor/pantech/ef56/proprietary/vendor/lib/libmmcamera_skuf_ov5648_p5v23c.so:system/vendor/lib/libmmcamera_skuf_ov5648_p5v23c.so \
-    vendor/pantech/ef56/proprietary/vendor/lib/libmmcamera_sp1628.so:system/vendor/lib/libmmcamera_sp1628.so \
-    vendor/pantech/ef56/proprietary/vendor/lib/libmmcamera_sunny_p12v01m_eeprom.so:system/vendor/lib/libmmcamera_sunny_p12v01m_eeprom.so \
-    vendor/pantech/ef56/proprietary/vendor/lib/libmmcamera_sunny_p5v23c_eeprom.so:system/vendor/lib/libmmcamera_sunny_p5v23c_eeprom.so \
-    vendor/pantech/ef56/proprietary/vendor/lib/libmmcamera_sunny_q8v18a_eeprom.so:system/vendor/lib/libmmcamera_sunny_q8v18a_eeprom.so
+    vendor/pantech/ef56/proprietary/vendor/lib/libmmcamera_sp1628.so:system/vendor/lib/libmmcamera_sp1628.so
