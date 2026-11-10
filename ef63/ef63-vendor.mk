@@ -23,7 +23,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef63/proprietary/vendor/firmware/venus.b02:system/vendor/firmware/venus.b02 \
     vendor/pantech/ef63/proprietary/vendor/firmware/venus.b03:system/vendor/firmware/venus.b03 \
     vendor/pantech/ef63/proprietary/vendor/firmware/venus.b04:system/vendor/firmware/venus.b04 \
-    vendor/pantech/ef63/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/pantech/ef63/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/pantech/ef63/proprietary/lib/libmmcamera_rohm_eeprom.so:system/lib/libmmcamera_rohm_eeprom.so \
     vendor/pantech/ef63/proprietary/lib/libmmcamera_rumba_sa_eeprom.so:system/lib/libmmcamera_rumba_sa_eeprom.so \
@@ -67,5 +66,4 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef63/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
     vendor/pantech/ef63/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so \
     vendor/pantech/ef63/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:system/vendor/lib/libmmcamera_wavelet_lib.so \
-    vendor/pantech/ef63/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
-    vendor/pantech/ef63/proprietary/vendor/lib/hw/camera.msm8974.so:system/vendor/lib/hw/camera.msm8974.so
+    vendor/pantech/ef63/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so
