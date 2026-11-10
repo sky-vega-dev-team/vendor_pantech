@@ -76,14 +76,13 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/msm8974-common/proprietary/etc/acdbdata/Speaker_cal.acdb:system/etc/acdbdata/Speaker_cal.acdb \
     vendor/pantech/msm8974-common/proprietary/vendor/framework/qcnvitems.jar:system/vendor/framework/qcnvitems.jar \
     vendor/pantech/msm8974-common/proprietary/vendor/framework/qcrilhook.jar:system/vendor/framework/qcrilhook.jar \
-    vendor/pantech/msm8974-common/proprietary/lib/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so \
-    vendor/pantech/msm8974-common/proprietary/lib/libchromatix_imx214_liveshot.so:system/lib/libchromatix_imx214_liveshot.so \
-    vendor/pantech/msm8974-common/proprietary/lib/libchromatix_imx214_zsl.so:system/lib/libchromatix_imx214_zsl.so \
-    vendor/pantech/msm8974-common/proprietary/lib/libchromatix_s5k6b2yx_common.so:system/lib/libchromatix_s5k6b2yx_common.so \
-    vendor/pantech/msm8974-common/proprietary/lib/libchromatix_s5k6b2yx_default_video.so:system/lib/libchromatix_s5k6b2yx_default_video.so \
-    vendor/pantech/msm8974-common/proprietary/lib/libchromatix_s5k6b2yx_preview.so:system/lib/libchromatix_s5k6b2yx_preview.so \
-    vendor/pantech/msm8974-common/proprietary/lib/libchromatix_s5k6b2yx_vt.so:system/lib/libchromatix_s5k6b2yx_vt.so \
-    vendor/pantech/msm8974-common/proprietary/lib/libchromatix_s5k6b2yx_vt_common.so:system/lib/libchromatix_s5k6b2yx_vt_common.so \
+    vendor/pantech/msm8974-common/proprietary/vendor/lib/libchromatix_imx135_liveshot.so:system/vendor/lib/libchromatix_imx135_liveshot.so \
+    vendor/pantech/msm8974-common/proprietary/vendor/lib/libchromatix_imx214_zsl.so:system/vendor/lib/libchromatix_imx214_zsl.so \
+    vendor/pantech/msm8974-common/proprietary/vendor/lib/libchromatix_s5k6b2yx_common.so:system/vendor/lib/libchromatix_s5k6b2yx_common.so \
+    vendor/pantech/msm8974-common/proprietary/vendor/lib/libchromatix_s5k6b2yx_default_video.so:system/vendor/lib/libchromatix_s5k6b2yx_default_video.so \
+    vendor/pantech/msm8974-common/proprietary/vendor/lib/libchromatix_s5k6b2yx_preview.so:system/vendor/lib/libchromatix_s5k6b2yx_preview.so \
+    vendor/pantech/msm8974-common/proprietary/vendor/lib/libchromatix_s5k6b2yx_vt.so:system/vendor/lib/libchromatix_s5k6b2yx_vt.so \
+    vendor/pantech/msm8974-common/proprietary/vendor/lib/libchromatix_s5k6b2yx_vt_common.so:system/vendor/lib/libchromatix_s5k6b2yx_vt_common.so \
     vendor/pantech/msm8974-common/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/pantech/msm8974-common/proprietary/vendor/lib/libloc_api_v02.so:system/vendor/lib/libloc_api_v02.so \
     vendor/pantech/msm8974-common/proprietary/vendor/lib/libloc_ds_api.so:system/vendor/lib/libloc_ds_api.so \
