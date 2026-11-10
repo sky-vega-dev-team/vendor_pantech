@@ -17,7 +17,6 @@
 #IM-A890K
 PRODUCT_COPY_FILES += \
     vendor/pantech/ef59/proprietary/vendor/bin/sensors.qcom:system/vendor/bin/sensors.qcom \
-    vendor/pantech/ef59/proprietary/vendor/lib/hw/camera.msm8974.so:system/vendor/lib/hw/camera.msm8974.so \
     vendor/pantech/ef59/proprietary/vendor/firmware/venus.mbn:system/vendor/firmware/venus.mbn \
     vendor/pantech/ef59/proprietary/vendor/firmware/venus.mdt:system/vendor/firmware/venus.mdt \
     vendor/pantech/ef59/proprietary/vendor/firmware/venus.b00:system/vendor/firmware/venus.b00 \
@@ -25,26 +24,12 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef59/proprietary/vendor/firmware/venus.b02:system/vendor/firmware/venus.b02 \
     vendor/pantech/ef59/proprietary/vendor/firmware/venus.b03:system/vendor/firmware/venus.b03 \
     vendor/pantech/ef59/proprietary/vendor/firmware/venus.b04:system/vendor/firmware/venus.b04 \
-    vendor/pantech/ef59/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/pantech/ef59/proprietary/lib/libmmcamera_rohm_eeprom.so:system/lib/libmmcamera_rohm_eeprom.so \
     vendor/pantech/ef59/proprietary/lib/libmmcamera_rumba_sa_eeprom.so:system/lib/libmmcamera_rumba_sa_eeprom.so \
     vendor/pantech/ef59/proprietary/lib/libmmcamera_s5k6b2yx.so:system/lib/libmmcamera_s5k6b2yx.so \
-    vendor/pantech/ef59/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/pantech/ef59/proprietary/lib/libsnsutils.so:system/lib/libsnsutils.so \
     vendor/pantech/ef59/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
-    vendor/pantech/ef59/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
-    vendor/pantech/ef59/proprietary/vendor/lib/libmmcamera2_iface_modules.so:system/vendor/lib/libmmcamera2_iface_modules.so \
-    vendor/pantech/ef59/proprietary/vendor/lib/libmmcamera2_imglib_modules.so:system/vendor/lib/libmmcamera2_imglib_modules.so \
-    vendor/pantech/ef59/proprietary/vendor/lib/libmmcamera2_isp_modules.so:system/vendor/lib/libmmcamera2_isp_modules.so \
-    vendor/pantech/ef59/proprietary/vendor/lib/libmmcamera2_pproc_modules.so:system/vendor/lib/libmmcamera2_pproc_modules.so \
-    vendor/pantech/ef59/proprietary/vendor/lib/libmmcamera2_sensor_modules.so:system/vendor/lib/libmmcamera2_sensor_modules.so \
-    vendor/pantech/ef59/proprietary/vendor/lib/libmmcamera2_stats_algorithm.so:system/vendor/lib/libmmcamera2_stats_algorithm.so \
-    vendor/pantech/ef59/proprietary/vendor/lib/libmmcamera2_stats_modules.so:system/vendor/lib/libmmcamera2_stats_modules.so \
-    vendor/pantech/ef59/proprietary/vendor/lib/libmmcamera2_vpe_module.so:system/vendor/lib/libmmcamera2_vpe_module.so \
-    vendor/pantech/ef59/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
-    vendor/pantech/ef59/proprietary/vendor/lib/libmmcamera_hdr_lib.so:system/vendor/lib/libmmcamera_hdr_lib.so \
     vendor/pantech/ef59/proprietary/vendor/lib/libmmcamera_hi256.so:system/vendor/lib/libmmcamera_hi256.so \
-    vendor/pantech/ef59/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
     vendor/pantech/ef59/proprietary/vendor/lib/libmmcamera_imx134.so:system/vendor/lib/libmmcamera_imx134.so \
     vendor/pantech/ef59/proprietary/vendor/lib/libmmcamera_imx135.so:system/vendor/lib/libmmcamera_imx135.so \
     vendor/pantech/ef59/proprietary/vendor/lib/libmmcamera_imx214.so:system/vendor/lib/libmmcamera_imx214.so \
@@ -64,9 +49,4 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef59/proprietary/vendor/lib/libmmcamera_sp1628.so:system/vendor/lib/libmmcamera_sp1628.so \
     vendor/pantech/ef59/proprietary/vendor/lib/libmmcamera_sunny_p12v01m_eeprom.so:system/vendor/lib/libmmcamera_sunny_p12v01m_eeprom.so \
     vendor/pantech/ef59/proprietary/vendor/lib/libmmcamera_sunny_p5v23c_eeprom.so:system/vendor/lib/libmmcamera_sunny_p5v23c_eeprom.so \
-    vendor/pantech/ef59/proprietary/vendor/lib/libmmcamera_sunny_q8v18a_eeprom.so:system/vendor/lib/libmmcamera_sunny_q8v18a_eeprom.so \
-    vendor/pantech/ef59/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
-    vendor/pantech/ef59/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
-    vendor/pantech/ef59/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so \
-    vendor/pantech/ef59/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:system/vendor/lib/libmmcamera_wavelet_lib.so \
-    vendor/pantech/ef59/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so 
+    vendor/pantech/ef59/proprietary/vendor/lib/libmmcamera_sunny_q8v18a_eeprom.so:system/vendor/lib/libmmcamera_sunny_q8v18a_eeprom.so
