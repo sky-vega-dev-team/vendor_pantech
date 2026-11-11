@@ -23,6 +23,12 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef63/proprietary/vendor/firmware/venus.b02:system/vendor/firmware/venus.b02 \
     vendor/pantech/ef63/proprietary/vendor/firmware/venus.b03:system/vendor/firmware/venus.b03 \
     vendor/pantech/ef63/proprietary/vendor/firmware/venus.b04:system/vendor/firmware/venus.b04 \
+    vendor/pantech/ef63/proprietary/vendor/etc/firmware_ef63k/venus.b01:system/vendor/etc/firmware_ef63k/venus.b01 \
+    vendor/pantech/ef63/proprietary/vendor/etc/firmware_ef63k/venus.mbn:system/vendor/etc/firmware_ef63k/venus.mbn \
+    vendor/pantech/ef63/proprietary/vendor/etc/firmware_ef63k/venus.mdt:system/vendor/etc/firmware_ef63k/venus.mdt \
+    vendor/pantech/ef63/proprietary/vendor/etc/firmware_ef63l/venus.b01:system/vendor/etc/firmware_ef63l/venus.b01 \
+    vendor/pantech/ef63/proprietary/vendor/etc/firmware_ef63l/venus.mbn:system/vendor/etc/firmware_ef63l/venus.mbn \
+    vendor/pantech/ef63/proprietary/vendor/etc/firmware_ef63l/venus.mdt:system/vendor/etc/firmware_ef63l/venus.mdt \
     vendor/pantech/ef63/proprietary/lib/libsnsutils.so:system/lib/libsnsutils.so \
     vendor/pantech/ef63/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/pantech/ef63/proprietary/vendor/lib/libmmcamera_SKUAA_ST_gc0339.so:system/vendor/lib/libmmcamera_SKUAA_ST_gc0339.so \
