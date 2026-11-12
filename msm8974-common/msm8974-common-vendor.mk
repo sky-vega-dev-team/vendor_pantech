@@ -45,7 +45,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/msm8974-common/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
     vendor/pantech/msm8974-common/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
     vendor/pantech/msm8974-common/proprietary/vendor/bin/loc_launcher:system/vendor/bin/loc_launcher \
-    vendor/pantech/msm8974-common/proprietary/vendor/bin/mpdecision:system/vendor/bin/mpdecision \
     vendor/pantech/msm8974-common/proprietary/vendor/bin/netmgrd:system/vendor/bin/netmgrd \
     vendor/pantech/msm8974-common/proprietary/vendor/bin/qmuxd:system/vendor/bin/qmuxd \
     vendor/pantech/msm8974-common/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
@@ -253,7 +252,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/msm8974-common/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
     vendor/pantech/msm8974-common/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/pantech/msm8974-common/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
-    vendor/pantech/msm8974-common/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
     vendor/pantech/msm8974-common/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/pantech/msm8974-common/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/pantech/msm8974-common/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
@@ -265,7 +263,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/msm8974-common/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
     vendor/pantech/msm8974-common/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/pantech/msm8974-common/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
-    vendor/pantech/msm8974-common/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/pantech/msm8974-common/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/pantech/msm8974-common/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/pantech/msm8974-common/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
