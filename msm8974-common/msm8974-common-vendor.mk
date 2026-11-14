@@ -73,6 +73,7 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/msm8974-common/proprietary/etc/acdbdata/Hdmi_cal.acdb:system/etc/acdbdata/Hdmi_cal.acdb \
     vendor/pantech/msm8974-common/proprietary/etc/acdbdata/Headset_cal.acdb:system/etc/acdbdata/Headset_cal.acdb \
     vendor/pantech/msm8974-common/proprietary/etc/acdbdata/Speaker_cal.acdb:system/etc/acdbdata/Speaker_cal.acdb \
+    vendor/pantech/msm8974-common/proprietary/lib/librnnoise_jni.so:system/lib/librnnoise_jni.so \
     vendor/pantech/msm8974-common/proprietary/vendor/framework/qcnvitems.jar:system/vendor/framework/qcnvitems.jar \
     vendor/pantech/msm8974-common/proprietary/vendor/framework/qcrilhook.jar:system/vendor/framework/qcrilhook.jar \
     vendor/pantech/msm8974-common/proprietary/vendor/lib/libchromatix_imx135_liveshot.so:system/vendor/lib/libchromatix_imx135_liveshot.so \
@@ -290,4 +291,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     TimeService \
-    shutdownlistener
+    shutdownlistener \
+    PhhIms \
+    PhhImsOverlay

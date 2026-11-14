@@ -42,4 +42,28 @@ LOCAL_MODULE_SUFFIX := .apk
 LOCAL_VENDOR_MODULE := true
 include $(BUILD_PREBUILT)
 
+include $(CLEAR_VARS)
+LOCAL_MODULE := PhhIms
+LOCAL_MODULE_OWNER := pantech
+LOCAL_SRC_FILES := proprietary/priv-app/PhhIms/PhhIms.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_PRIVILEGED_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := PhhImsOverlay
+LOCAL_MODULE_OWNER := pantech
+LOCAL_SRC_FILES := proprietary/product/overlay/PhhImsOverlay.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_MODULE_PATH := $(TARGET_OUT_PRODUCT)/overlay
+include $(BUILD_PREBUILT)
+
 endif
